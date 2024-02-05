@@ -1,0 +1,786 @@
+{
+  "core-uuid": "a837cfb9-d3e0-4a49-9502-865daff9074f",
+  "switchname": "sbctelenova.flux.net.br",
+  "channel_data": {
+    "state": "CS_REPORTING",
+    "direction": "inbound",
+    "state_number": "11",
+    "flags": "0=1;1=1;3=1;22=1;39=1;40=1;42=1;45=1;50=1;55=1;95=1;107=1;113=1;114=1;123=1;160=1;165=1;166=1",
+    "caps": "1=1;2=1;3=1;4=1;5=1;6=1;8=1;9=1;10=1"
+  },
+  "callStats": {
+    "audio": {
+      "inbound": {
+        "raw_bytes": 17041,
+        "media_bytes": 17028,
+        "packet_count": 100,
+        "media_packet_count": 99,
+        "skip_packet_count": 235,
+        "jitter_packet_count": 0,
+        "dtmf_packet_count": 0,
+        "cng_packet_count": 1,
+        "flush_packet_count": 0,
+        "largest_jb_size": 0,
+        "jitter_min_variance": 9.523809523809524,
+        "jitter_max_variance": 27.295454545454547,
+        "jitter_loss_rate": 0,
+        "jitter_burst_rate": 0,
+        "mean_interval": 20,
+        "flaw_total": 0,
+        "quality_percentage": 100,
+        "mos": 4.5
+      },
+      "outbound": {
+        "raw_bytes": 50052,
+        "media_bytes": 50052,
+        "packet_count": 291,
+        "media_packet_count": 291,
+        "skip_packet_count": 0,
+        "dtmf_packet_count": 0,
+        "cng_packet_count": 0,
+        "rtcp_packet_count": 57,
+        "rtcp_octet_count": 8961
+      }
+    }
+  },
+  "variables": {
+    "direction": "inbound",
+    "uuid": "74c9b57f-83c0-40ca-805f-34b76dfb1b49",
+    "session_id": "19660",
+    "sip_from_user": "9719455309",
+    "sip_from_uri": "9719455309@sbctelenova.flux.net.br",
+    "sip_from_host": "sbctelenova.flux.net.br",
+    "video_media_flow": "disabled",
+    "text_media_flow": "disabled",
+    "channel_name": "sofia/default/9719455309@sbctelenova.flux.net.br",
+    "sip_local_network_addr": "200.159.177.31",
+    "sip_network_ip": "104.196.123.195",
+    "sip_network_port": "5060",
+    "sip_invite_stamp": "1704835911203526",
+    "sip_received_ip": "104.196.123.195",
+    "sip_received_port": "5060",
+    "sip_via_protocol": "udp",
+    "sip_authorized": "true",
+    "Event-Name": "REQUEST_PARAMS",
+    "Core-UUID": "a837cfb9-d3e0-4a49-9502-865daff9074f",
+    "FreeSWITCH-Hostname": "sbctelenova.flux.net.br",
+    "FreeSWITCH-Switchname": "sbctelenova.flux.net.br",
+    "FreeSWITCH-IPv4": "200.159.177.31",
+    "FreeSWITCH-IPv6": "fe80::20c:29ff:fee9:f5d7",
+    "Event-Date-Local": "2024-01-09 18:31:51",
+    "Event-Date-GMT": "Tue, 09 Jan 2024 21:31:51 GMT",
+    "Event-Date-Timestamp": "1704835911203526",
+    "Event-Calling-File": "sofia.c",
+    "Event-Calling-Function": "sofia_handle_sip_i_invite",
+    "Event-Calling-Line-Number": "10722",
+    "Event-Sequence": "1180234",
+    "sip_number_alias": "9719455309",
+    "sip_auth_username": "9719455309",
+    "sip_auth_realm": "sbctelenova.flux.net.br",
+    "number_alias": "9719455309",
+    "requested_user_name": "9719455309",
+    "requested_domain_name": "200.159.177.31",
+    "sipcall": "true",
+    "sip_user": "9719455309",
+    "accountcode": "4984114089",
+    "user_name": "9719455309",
+    "domain_name": "200.159.177.31",
+    "sip_from_user_stripped": "9719455309",
+    "sofia_profile_name": "default",
+    "sofia_profile_url": "sip:mod_sofia@200.159.177.31:5060",
+    "recovery_profile_name": "default",
+    "sip_invite_route_uri": "<sip:104.196.123.195;lr;nat=yes>",
+    "sip_invite_record_route": "<sip:104.196.123.195;lr;nat=yes>",
+    "sip_allow": "OPTIONS, REGISTER, SUBSCRIBE, NOTIFY, PUBLISH, INVITE, ACK, BYE, CANCEL, UPDATE, MESSAGE, REFER",
+    "sip_req_user": "065992885512",
+    "sip_req_port": "5060",
+    "sip_req_uri": "065992885512@sbctelenova.flux.net.br:5060",
+    "sip_req_host": "sbctelenova.flux.net.br",
+    "sip_to_user": "065992885512",
+    "sip_to_uri": "065992885512@sbctelenova.flux.net.br",
+    "sip_to_host": "sbctelenova.flux.net.br",
+    "sip_contact_user": "9719455309",
+    "sip_contact_port": "5060",
+    "sip_contact_uri": "9719455309@34.138.221.229:5060",
+    "sip_contact_host": "34.138.221.229",
+    "sip_via_host": "104.196.123.195",
+    "sip_via_port": "5060",
+    "max_forwards": "69",
+    "presence_id": "9719455309@sbctelenova.flux.net.br",
+    "sip_h_P-Hint": "outbound",
+    "switch_r_sdp": "v=0\r\no=- 1099293941 1099293941 IN IP4 104.196.123.195\r\ns=Asterisk\r\nc=IN IP4 104.196.123.195\r\nt=0 0\r\na=rtpengine:7c666036e5be\r\nm=audio 11010 RTP/AVP 0 18 101\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:18 G729/8000\r\na=fmtp:18 annexb=no\r\na=rtpmap:101 telephone-event/8000\r\na=fmtp:101 0-16\r\na=maxptime:150\r\na=rtcp:11011\r\na=ptime:20\r\n",
+    "ep_codec_string": "CORE_PCM_MODULE.PCMU@8000h@20i@64000b",
+    "rtp_use_codec_string": "PCMA,PCMU",
+    "remote_video_media_flow": "inactive",
+    "remote_text_media_flow": "inactive",
+    "remote_audio_media_flow": "sendrecv",
+    "audio_media_flow": "sendrecv",
+    "rtp_remote_audio_rtcp_port": "11011",
+    "rtp_audio_recv_pt": "0",
+    "rtp_use_codec_name": "PCMU",
+    "rtp_use_codec_rate": "8000",
+    "rtp_use_codec_ptime": "20",
+    "rtp_use_codec_channels": "1",
+    "rtp_last_audio_codec_string": "PCMU@8000h@20i@1c",
+    "read_codec": "PCMU",
+    "original_read_codec": "PCMU",
+    "read_rate": "8000",
+    "original_read_rate": "8000",
+    "write_codec": "PCMU",
+    "write_rate": "8000",
+    "dtmf_type": "rfc2833",
+    "call_uuid": "74c9b57f-83c0-40ca-805f-34b76dfb1b49",
+    "effective_destination_number": "065992885512",
+    "bridge_pre_execute_bleg_app": "sched_hangup",
+    "bridge_pre_execute_bleg_data": "+600000 normal_clearing",
+    "callstart": "2024-01-09 21:31:51",
+    "hangup_after_bridge": "true",
+    "continue_on_fail": "TRUE",
+    "account_id": "13",
+    "parent_id": "0",
+    "entity_id": "0",
+    "call_processed": "internal",
+    "call_direction": "outbound",
+    "accountname": "default",
+    "t38_passthru": "true",
+    "fax_enable_t38": "true",
+    "fax_enable_t38_request": "true",
+    "origination_rates": "ID:2841|CODE:^0659.*|DESTINATION:Celular VC2/VC3|CONNECTIONCOST:0.00000|INCLUDEDSECONDS:0|CT:10|COST:0.09500|INC:6|INITIALBLOCK:30|RATEGROUP:11|MARKUP:0|CI:28|ACCID:13",
+    "original_caller_id_name": "65996591553",
+    "original_caller_id_number": "65996591553",
+    "effective_caller_id_name": "65996591553",
+    "effective_caller_id_number": "65996591553",
+    "calltype": "Celular VC2/VC3",
+    "origination_call_type": "0",
+    "termination_rates": "ID:2439|CODE:^0659.*|DESTINATION:Celular VC2/VC3|CONNECTIONCOST:0.00000|INCLUDEDSECONDS:0|COST:0.06000|INC:6|INITIALBLOCK:30|TRUNK:8|PROVIDER:42",
+    "trunk_id": "8",
+    "provider_id": "42",
+    "rate_flag": "0",
+    "force_trunk_flag": "2841",
+    "intcall": "0",
+    "presence_data": "x|||VIctor(4984114089)|||^0659.* // Celular VC2/VC3 // 0.09500 // trunk_id=4|||FluxGW // ^0659.* // Celular VC2/VC3 // 0.06000 // trunk_id=8|||STD",
+    "export_vars": "t38_passthru,presence_data,presence_data",
+    "current_application_data": "{sip_cid_type=none}[leg_timeout=0,absolute_codec_string=^^:PCMA:PCMU]sofia/gateway/FluxGW/5900065992885512",
+    "current_application": "bridge",
+    "originated_legs": "5c8155f8-d021-45fd-a4fb-1a9de0c3cb34;Outbound Call;5900065992885512",
+    "switch_m_sdp": "v=0\r\no=- 1704835911 1704835911 IN IP4 200.159.177.216\r\ns=-\r\nc=IN IP4 200.159.177.216\r\nt=0 0\r\nm=audio 38068 RTP/AVP 8 0 101\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:101 telephone-event/8000\r\na=fmtp:101 0-15\r\na=ptime:20\r\na=silenceSupp:off - - - -\r\na=nortpproxy:yes\r\n",
+    "local_media_ip": "200.159.177.31",
+    "local_media_port": "25258",
+    "advertised_media_ip": "200.159.177.31",
+    "rtp_use_timer_name": "soft",
+    "rtp_use_pt": "0",
+    "rtp_use_ssrc": "367421887",
+    "rtp_2833_send_payload": "101",
+    "rtp_2833_recv_payload": "101",
+    "remote_media_ip": "104.196.123.195",
+    "remote_media_port": "11010",
+    "originate_disposition": "SUCCESS",
+    "DIALSTATUS": "SUCCESS",
+    "originate_causes": "5c8155f8-d021-45fd-a4fb-1a9de0c3cb34;NONE",
+    "last_bridge_to": "5c8155f8-d021-45fd-a4fb-1a9de0c3cb34",
+    "bridge_channel": "sofia/default/5900065992885512",
+    "bridge_uuid": "5c8155f8-d021-45fd-a4fb-1a9de0c3cb34",
+    "signal_bond": "5c8155f8-d021-45fd-a4fb-1a9de0c3cb34",
+    "rtp_local_sdp_str": "v=0\r\no=FreeSWITCH 1704810656 1704810658 IN IP4 200.159.177.31\r\ns=FreeSWITCH\r\nc=IN IP4 200.159.177.31\r\nt=0 0\r\nm=audio 25258 RTP/AVP 0 101\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:101 telephone-event/8000\r\na=fmtp:101 0-15\r\na=ptime:20\r\na=sendrecv\r\na=rtcp:25259 IN IP4 200.159.177.31\r\n",
+    "endpoint_disposition": "ANSWER",
+    "sip_to_tag": "0cHjy0K03t5QN",
+    "sip_from_tag": "1f0f0aa4-952f-44ae-b724-5625b9ba5471",
+    "sip_cseq": "25411",
+    "sip_call_id": "0e5cc6fa-24e7-4e15-b21a-38151a6974e2",
+    "sip_full_via": "SIP/2.0/UDP 104.196.123.195:5060;branch=z9hG4bK576a.b24b7d4c0eaf82c6fcf5b4e6461fb9bd.0,SIP/2.0/UDP 34.138.221.229:5060;received=34.138.221.229;rport=5060;branch=z9hG4bKPjcf72399d-f433-474b-9597-480b7ac11df2",
+    "sip_full_from": "<sip:9719455309@sbctelenova.flux.net.br>;tag=1f0f0aa4-952f-44ae-b724-5625b9ba5471",
+    "sip_full_to": "<sip:065992885512@sbctelenova.flux.net.br>;tag=0cHjy0K03t5QN",
+    "last_sent_callee_id_name": "Outbound Call",
+    "last_sent_callee_id_number": "5900065992885512",
+    "sip_reason": "Q.850;cause=16",
+    "sip_term_status": "200",
+    "proto_specific_hangup_cause": "sip:200",
+    "sip_term_cause": "16",
+    "last_bridge_role": "originator",
+    "sip_user_agent": "Asterisk PBX 18.19.0",
+    "sip_hangup_disposition": "recv_bye",
+    "bridge_hangup_cause": "NORMAL_CLEARING",
+    "hangup_cause": "NORMAL_CLEARING",
+    "hangup_cause_q850": "16",
+    "digits_dialed": "none",
+    "start_stamp": "2024-01-09 18:31:51",
+    "profile_start_stamp": "2024-01-09 18:31:51",
+    "answer_stamp": "2024-01-09 18:31:58",
+    "bridge_stamp": "2024-01-09 18:31:54",
+    "progress_stamp": "2024-01-09 18:31:54",
+    "progress_media_stamp": "2024-01-09 18:31:54",
+    "end_stamp": "2024-01-09 18:32:01",
+    "start_epoch": "1704835911",
+    "start_uepoch": "1704835911223532",
+    "profile_start_epoch": "1704835911",
+    "profile_start_uepoch": "1704835911223532",
+    "answer_epoch": "1704835918",
+    "answer_uepoch": "1704835918663533",
+    "bridge_epoch": "1704835914",
+    "bridge_uepoch": "1704835914563538",
+    "last_hold_epoch": "0",
+    "last_hold_uepoch": "0",
+    "hold_accum_seconds": "0",
+    "hold_accum_usec": "0",
+    "hold_accum_ms": "0",
+    "resurrect_epoch": "0",
+    "resurrect_uepoch": "0",
+    "progress_epoch": "1704835914",
+    "progress_uepoch": "1704835914543528",
+    "progress_media_epoch": "1704835914",
+    "progress_media_uepoch": "1704835914563538",
+    "end_epoch": "1704835921",
+    "end_uepoch": "1704835921243537",
+    "last_app": "bridge",
+    "last_arg": "{sip_cid_type=none}[leg_timeout=0,absolute_codec_string=^^:PCMA:PCMU]sofia/gateway/FluxGW/5900065992885512",
+    "caller_id": "\"9719455309\" <9719455309>",
+    "duration": "10",
+    "billsec": "3",
+    "progresssec": "3",
+    "answersec": "7",
+    "waitsec": "3",
+    "progress_mediasec": "3",
+    "flow_billsec": "10",
+    "mduration": "10020",
+    "billmsec": "2580",
+    "progressmsec": "3320",
+    "answermsec": "7440",
+    "waitmsec": "3340",
+    "progress_mediamsec": "3340",
+    "flow_billmsec": "10020",
+    "uduration": "10020005",
+    "billusec": "2580004",
+    "progressusec": "3319996",
+    "answerusec": "7440001",
+    "waitusec": "3340006",
+    "progress_mediausec": "3340006",
+    "flow_billusec": "10020005",
+    "rtp_audio_in_raw_bytes": "17041",
+    "rtp_audio_in_media_bytes": "17028",
+    "rtp_audio_in_packet_count": "100",
+    "rtp_audio_in_media_packet_count": "99",
+    "rtp_audio_in_skip_packet_count": "235",
+    "rtp_audio_in_jitter_packet_count": "0",
+    "rtp_audio_in_dtmf_packet_count": "0",
+    "rtp_audio_in_cng_packet_count": "1",
+    "rtp_audio_in_flush_packet_count": "0",
+    "rtp_audio_in_largest_jb_size": "0",
+    "rtp_audio_in_jitter_min_variance": "9.52",
+    "rtp_audio_in_jitter_max_variance": "27.30",
+    "rtp_audio_in_jitter_loss_rate": "0.00",
+    "rtp_audio_in_jitter_burst_rate": "0.00",
+    "rtp_audio_in_mean_interval": "20.00",
+    "rtp_audio_in_flaw_total": "0",
+    "rtp_audio_in_quality_percentage": "100.00",
+    "rtp_audio_in_mos": "4.50",
+    "rtp_audio_out_raw_bytes": "50052",
+    "rtp_audio_out_media_bytes": "50052",
+    "rtp_audio_out_packet_count": "291",
+    "rtp_audio_out_media_packet_count": "291",
+    "rtp_audio_out_skip_packet_count": "0",
+    "rtp_audio_out_dtmf_packet_count": "0",
+    "rtp_audio_out_cng_packet_count": "0",
+    "rtp_audio_rtcp_packet_count": "57",
+    "rtp_audio_rtcp_octet_count": "8961"
+  },
+  "app_log": {
+    "applications": [
+      {
+        "app_name": "set",
+        "app_data": "effective_destination_number=065992885512",
+        "app_stamp": "1704835911389403"
+      },
+      {
+        "app_name": "set",
+        "app_data": "bridge_pre_execute_bleg_app=sched_hangup",
+        "app_stamp": "1704835911389715"
+      },
+      {
+        "app_name": "set",
+        "app_data": "bridge_pre_execute_bleg_data=+600000 normal_clearing",
+        "app_stamp": "1704835911390033"
+      },
+      {
+        "app_name": "set",
+        "app_data": "callstart=2024-01-09 21:31:51",
+        "app_stamp": "1704835911390330"
+      },
+      {
+        "app_name": "set",
+        "app_data": "hangup_after_bridge=true",
+        "app_stamp": "1704835911390627"
+      },
+      {
+        "app_name": "set",
+        "app_data": "continue_on_fail=TRUE",
+        "app_stamp": "1704835911390930"
+      },
+      {
+        "app_name": "set",
+        "app_data": "account_id=13",
+        "app_stamp": "1704835911391217"
+      },
+      {
+        "app_name": "set",
+        "app_data": "parent_id=0",
+        "app_stamp": "1704835911391484"
+      },
+      {
+        "app_name": "set",
+        "app_data": "entity_id=0",
+        "app_stamp": "1704835911391772"
+      },
+      {
+        "app_name": "set",
+        "app_data": "call_processed=internal",
+        "app_stamp": "1704835911392040"
+      },
+      {
+        "app_name": "set",
+        "app_data": "call_direction=outbound",
+        "app_stamp": "1704835911392331"
+      },
+      {
+        "app_name": "set",
+        "app_data": "accountname=default",
+        "app_stamp": "1704835911392623"
+      },
+      {
+        "app_name": "export",
+        "app_data": "t38_passthru=true",
+        "app_stamp": "1704835911392899"
+      },
+      {
+        "app_name": "set",
+        "app_data": "fax_enable_t38=true",
+        "app_stamp": "1704835911393253"
+      },
+      {
+        "app_name": "set",
+        "app_data": "fax_enable_t38_request=true",
+        "app_stamp": "1704835911393537"
+      },
+      {
+        "app_name": "set",
+        "app_data": "origination_rates=ID:2841|CODE:^0659.*|DESTINATION:Celular VC2/VC3|CONNECTIONCOST:0.00000|INCLUDEDSECONDS:0|CT:10|COST:0.09500|INC:6|INITIALBLOCK:30|RATEGROUP:11|MARKUP:0|CI:28|ACCID:13",
+        "app_stamp": "1704835911393829"
+      },
+      {
+        "app_name": "set",
+        "app_data": "original_caller_id_name=65996591553",
+        "app_stamp": "1704835911394149"
+      },
+      {
+        "app_name": "set",
+        "app_data": "original_caller_id_number=65996591553",
+        "app_stamp": "1704835911394452"
+      },
+      {
+        "app_name": "set",
+        "app_data": "effective_caller_id_name=65996591553",
+        "app_stamp": "1704835911394759"
+      },
+      {
+        "app_name": "set",
+        "app_data": "effective_caller_id_number=65996591553",
+        "app_stamp": "1704835911395045"
+      },
+      {
+        "app_name": "set",
+        "app_data": "calltype=Celular VC2/VC3",
+        "app_stamp": "1704835911395334"
+      },
+      {
+        "app_name": "set",
+        "app_data": "origination_call_type=0",
+        "app_stamp": "1704835911395624"
+      },
+      {
+        "app_name": "set",
+        "app_data": "termination_rates=ID:2439|CODE:^0659.*|DESTINATION:Celular VC2/VC3|CONNECTIONCOST:0.00000|INCLUDEDSECONDS:0|COST:0.06000|INC:6|INITIALBLOCK:30|TRUNK:8|PROVIDER:42",
+        "app_stamp": "1704835911395949"
+      },
+      {
+        "app_name": "set",
+        "app_data": "trunk_id=8",
+        "app_stamp": "1704835911396262"
+      },
+      {
+        "app_name": "set",
+        "app_data": "provider_id=42",
+        "app_stamp": "1704835911396549"
+      },
+      {
+        "app_name": "set",
+        "app_data": "rate_flag=0",
+        "app_stamp": "1704835911396839"
+      },
+      {
+        "app_name": "set",
+        "app_data": "force_trunk_flag=2841",
+        "app_stamp": "1704835911397132"
+      },
+      {
+        "app_name": "export",
+        "app_data": "presence_data=trunk_id=8",
+        "app_stamp": "1704835911397444"
+      },
+      {
+        "app_name": "set",
+        "app_data": "intcall=0",
+        "app_stamp": "1704835911397757"
+      },
+      {
+        "app_name": "export",
+        "app_data": "presence_data=x|||VIctor(4984114089)|||^0659.* // Celular VC2/VC3 // 0.09500 // trunk_id=4|||FluxGW // ^0659.* // Celular VC2/VC3 // 0.06000 // trunk_id=8|||STD",
+        "app_stamp": "1704835911398066"
+      },
+      {
+        "app_name": "bridge",
+        "app_data": "{sip_cid_type=none}[leg_timeout=0,absolute_codec_string=^^:PCMA:PCMU]sofia/gateway/FluxGW/5900065992885512",
+        "app_stamp": "1704835911398403"
+      }
+    ]
+  },
+  "callflow": [
+    {
+      "dialplan": "XML",
+      "profile_index": "1",
+      "extension": {
+        "name": "065992885512",
+        "number": "065992885512",
+        "applications": [
+          {
+            "app_name": "set",
+            "app_data": "effective_destination_number=065992885512"
+          },
+          {
+            "app_name": "set",
+            "app_data": "bridge_pre_execute_bleg_app=sched_hangup"
+          },
+          {
+            "app_name": "set",
+            "app_data": "bridge_pre_execute_bleg_data=+600000 normal_clearing"
+          },
+          {
+            "app_name": "set",
+            "app_data": "callstart=2024-01-09 21:31:51"
+          },
+          {
+            "app_name": "set",
+            "app_data": "hangup_after_bridge=true"
+          },
+          {
+            "app_name": "set",
+            "app_data": "continue_on_fail=TRUE"
+          },
+          {
+            "app_name": "set",
+            "app_data": "account_id=13"
+          },
+          {
+            "app_name": "set",
+            "app_data": "parent_id=0"
+          },
+          {
+            "app_name": "set",
+            "app_data": "entity_id=0"
+          },
+          {
+            "app_name": "set",
+            "app_data": "call_processed=internal"
+          },
+          {
+            "app_name": "set",
+            "app_data": "call_direction=outbound"
+          },
+          {
+            "app_name": "set",
+            "app_data": "accountname=default"
+          },
+          {
+            "app_name": "export",
+            "app_data": "t38_passthru=true"
+          },
+          {
+            "app_name": "set",
+            "app_data": "fax_enable_t38=true"
+          },
+          {
+            "app_name": "set",
+            "app_data": "fax_enable_t38_request=true"
+          },
+          {
+            "app_name": "set",
+            "app_data": "origination_rates=ID:2841|CODE:^0659.*|DESTINATION:Celular VC2/VC3|CONNECTIONCOST:0.00000|INCLUDEDSECONDS:0|CT:10|COST:0.09500|INC:6|INITIALBLOCK:30|RATEGROUP:11|MARKUP:0|CI:28|ACCID:13"
+          },
+          {
+            "app_name": "set",
+            "app_data": "original_caller_id_name=65996591553"
+          },
+          {
+            "app_name": "set",
+            "app_data": "original_caller_id_number=65996591553"
+          },
+          {
+            "app_name": "set",
+            "app_data": "effective_caller_id_name=65996591553"
+          },
+          {
+            "app_name": "set",
+            "app_data": "effective_caller_id_number=65996591553"
+          },
+          {
+            "app_name": "set",
+            "app_data": "calltype=Celular VC2/VC3"
+          },
+          {
+            "app_name": "set",
+            "app_data": "origination_call_type=0"
+          },
+          {
+            "app_name": "set",
+            "app_data": "termination_rates=ID:2439|CODE:^0659.*|DESTINATION:Celular VC2/VC3|CONNECTIONCOST:0.00000|INCLUDEDSECONDS:0|COST:0.06000|INC:6|INITIALBLOCK:30|TRUNK:8|PROVIDER:42"
+          },
+          {
+            "app_name": "set",
+            "app_data": "trunk_id=8"
+          },
+          {
+            "app_name": "set",
+            "app_data": "provider_id=42"
+          },
+          {
+            "app_name": "set",
+            "app_data": "rate_flag=0"
+          },
+          {
+            "app_name": "set",
+            "app_data": "force_trunk_flag=2841"
+          },
+          {
+            "app_name": "export",
+            "app_data": "presence_data=trunk_id=8"
+          },
+          {
+            "app_name": "set",
+            "app_data": "intcall=0"
+          },
+          {
+            "app_name": "export",
+            "app_data": "presence_data=x|||VIctor(4984114089)|||^0659.* // Celular VC2/VC3 // 0.09500 // trunk_id=4|||FluxGW // ^0659.* // Celular VC2/VC3 // 0.06000 // trunk_id=8|||STD"
+          },
+          {
+            "app_name": "bridge",
+            "app_data": "{sip_cid_type=none}[leg_timeout=0,absolute_codec_string=^^:PCMA:PCMU]sofia/gateway/FluxGW/5900065992885512"
+          },
+          {
+            "last_executed": "true",
+            "app_name": "set",
+            "app_data": "effective_caller_id_name=65996591553"
+          },
+          {
+            "app_name": "set",
+            "app_data": "effective_caller_id_number=65996591553"
+          },
+          {
+            "app_name": "set",
+            "app_data": "calltype=Celular VC2/VC3"
+          },
+          {
+            "app_name": "set",
+            "app_data": "origination_call_type=0"
+          },
+          {
+            "app_name": "set",
+            "app_data": "termination_rates=ID:1663|CODE:^0659.*|DESTINATION:Celular VC2/VC3|CONNECTIONCOST:0.00000|INCLUDEDSECONDS:0|COST:0.07500|INC:6|INITIALBLOCK:30|TRUNK:4|PROVIDER:2"
+          },
+          {
+            "app_name": "set",
+            "app_data": "trunk_id=4"
+          },
+          {
+            "app_name": "set",
+            "app_data": "provider_id=2"
+          },
+          {
+            "app_name": "set",
+            "app_data": "rate_flag=0"
+          },
+          {
+            "app_name": "set",
+            "app_data": "force_trunk_flag=2841"
+          },
+          {
+            "app_name": "export",
+            "app_data": "presence_data=trunk_id=4"
+          },
+          {
+            "app_name": "set",
+            "app_data": "intcall=0"
+          },
+          {
+            "app_name": "export",
+            "app_data": "presence_data=x|||VIctor(4984114089)|||^0659.* // Celular VC2/VC3 // 0.09500 // trunk_id=4|||FluxGW // ^0659.* // Celular VC2/VC3 // 0.07500 // trunk_id=4|||STD"
+          },
+          {
+            "app_name": "bridge",
+            "app_data": "{sip_cid_type=}[leg_timeout=60,absolute_codec_string=^^:PCMA:PCMU]sofia/gateway/FluxGW/5900065992885512"
+          },
+          {
+            "app_name": "set",
+            "app_data": "effective_caller_id_name=65996591553"
+          },
+          {
+            "app_name": "set",
+            "app_data": "effective_caller_id_number=65996591553"
+          },
+          {
+            "app_name": "set",
+            "app_data": "calltype=Celular VC2/VC3"
+          },
+          {
+            "app_name": "set",
+            "app_data": "origination_call_type=0"
+          },
+          {
+            "app_name": "set",
+            "app_data": "termination_rates=ID:2227|CODE:^0659.*|DESTINATION:Celular VC2/VC3|CONNECTIONCOST:0.00000|INCLUDEDSECONDS:0|COST:0.07500|INC:6|INITIALBLOCK:30|TRUNK:6|PROVIDER:2"
+          },
+          {
+            "app_name": "set",
+            "app_data": "trunk_id=6"
+          },
+          {
+            "app_name": "set",
+            "app_data": "provider_id=2"
+          },
+          {
+            "app_name": "set",
+            "app_data": "rate_flag=0"
+          },
+          {
+            "app_name": "set",
+            "app_data": "force_trunk_flag=2841"
+          },
+          {
+            "app_name": "export",
+            "app_data": "presence_data=trunk_id=6"
+          },
+          {
+            "app_name": "set",
+            "app_data": "intcall=0"
+          },
+          {
+            "app_name": "export",
+            "app_data": "presence_data=x|||VIctor(4984114089)|||^0659.* // Celular VC2/VC3 // 0.09500 // trunk_id=4|||teste_telenova // ^0659.* // Celular VC2/VC3 // 0.07500 // trunk_id=6|||STD"
+          },
+          {
+            "app_name": "bridge",
+            "app_data": "{sip_cid_type=}[leg_timeout=60,absolute_codec_string=^^:PCMU:PCMA]sofia/gateway/teste_telenova/5900065992885512"
+          },
+          {
+            "app_name": "set",
+            "app_data": "effective_caller_id_name=65996591553"
+          },
+          {
+            "app_name": "set",
+            "app_data": "effective_caller_id_number=65996591553"
+          },
+          {
+            "app_name": "set",
+            "app_data": "calltype=Celular VC2/VC3"
+          },
+          {
+            "app_name": "set",
+            "app_data": "origination_call_type=0"
+          },
+          {
+            "app_name": "set",
+            "app_data": "termination_rates=ID:2509|CODE:^065.*|DESTINATION:Fixo LDN|CONNECTIONCOST:0.00000|INCLUDEDSECONDS:0|COST:0.03000|INC:6|INITIALBLOCK:30|TRUNK:7|PROVIDER:41"
+          },
+          {
+            "app_name": "set",
+            "app_data": "trunk_id=7"
+          },
+          {
+            "app_name": "set",
+            "app_data": "provider_id=41"
+          },
+          {
+            "app_name": "set",
+            "app_data": "rate_flag=0"
+          },
+          {
+            "app_name": "set",
+            "app_data": "force_trunk_flag=2841"
+          },
+          {
+            "app_name": "export",
+            "app_data": "presence_data=trunk_id=7"
+          },
+          {
+            "app_name": "set",
+            "app_data": "intcall=0"
+          },
+          {
+            "app_name": "export",
+            "app_data": "presence_data=x|||VIctor(4984114089)|||^0659.* // Celular VC2/VC3 // 0.09500 // trunk_id=4|||FluxGW // ^065.* // Fixo LDN // 0.03000 // trunk_id=7|||STD"
+          },
+          {
+            "app_name": "bridge",
+            "app_data": "{sip_cid_type=}[leg_timeout=0,absolute_codec_string=^^:PCMA:PCMU]sofia/gateway/FluxGW/99009900065992885512"
+          }
+        ],
+        "current_app": "set"
+      },
+      "caller_profile": {
+        "username": "9719455309",
+        "dialplan": "XML",
+        "caller_id_name": "9719455309",
+        "ani": "9719455309",
+        "aniii": "",
+        "caller_id_number": "9719455309",
+        "network_addr": "104.196.123.195",
+        "rdnis": "",
+        "destination_number": "065992885512",
+        "uuid": "74c9b57f-83c0-40ca-805f-34b76dfb1b49",
+        "source": "mod_sofia",
+        "context": "default",
+        "chan_name": "sofia/default/9719455309@sbctelenova.flux.net.br",
+        "originatee": {
+          "originatee_caller_profiles": [
+            {
+              "username": "9719455309",
+              "dialplan": "XML",
+              "caller_id_name": "65996591553",
+              "ani": "9719455309",
+              "aniii": "",
+              "caller_id_number": "65996591553",
+              "network_addr": "200.159.177.239",
+              "rdnis": "",
+              "destination_number": "5900065992885512",
+              "uuid": "5c8155f8-d021-45fd-a4fb-1a9de0c3cb34",
+              "source": "mod_sofia",
+              "context": "default",
+              "chan_name": "sofia/default/5900065992885512"
+            }
+          ]
+        }
+      },
+      "times": {
+        "created_time": "1704835911223532",
+        "profile_created_time": "1704835911223532",
+        "progress_time": "1704835914543528",
+        "progress_media_time": "1704835914563538",
+        "answered_time": "1704835918663533",
+        "bridged_time": "1704835914563538",
+        "last_hold_time": "0",
+        "hold_accum_time": "0",
+        "hangup_time": "1704835921243537",
+        "resurrect_time": "0",
+        "transfer_time": "0"
+      }
+    }
+  ]
+}
